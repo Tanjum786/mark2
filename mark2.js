@@ -3,7 +3,7 @@ var chalk=require("chalk")
 var score=0;
 var userName=input.question("May i know your name?: ");
 console.log(".........................................................................");
-console.log(chalk.yellowBright("welcome "+userName+"!  How Much You Know About INDIAN HISTORY?? let's see"));
+console.log(chalk.yellowBright("welcome "+userName+"! "+"\n"+"How Much You Know About INDIAN HISTORY?? let's see"));
 function playGame(question,answer){
   console.log("                                             ");
   console.log(chalk.green( question));
@@ -40,10 +40,10 @@ for(i in questions){
 console.log(chalk.yellow("yeahhh :) you scored! ",score))
 var highScorer=[{
     name:"Tanjum",
-    h_score:4},
+    h_score:3},
     {
     name:"Muskan",
-    h_score:5
+    h_score:4
 }]
 console.log("                                                     ");
 console.log(chalk.whiteBright("*********************"));
