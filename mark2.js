@@ -43,7 +43,7 @@ var highScorer=[{
     h_score:3},
     {
     name:"Muskan",
-    h_score:4
+    h_score:5
 }]
 console.log("                                                     ");
 console.log(chalk.whiteBright("*********************"));
