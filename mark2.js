@@ -53,7 +53,8 @@ for(j in highScorer){
         break
     }
 }
-console.log("Highest score Board");
+console.log("                        ")
+console.log(chalk.bgGreen("Highest score Board"));
 for (j of highScorer){
     console.log(j.name+" : "+j.h_score);
 }
